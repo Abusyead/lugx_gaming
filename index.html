@@ -15,9 +15,17 @@
     <img class="banner-bg"  src="images/banner-bg.jpg" alt="">
     <header> 
         <nav class="container">
-            <div class="navbar">
+            <div id="navbar" class="navbar">
                 <img src="images/logo.png" alt="">
-                <div>
+
+                <input type="checkbox" id="click">
+
+                <label for="click" class="menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+
+                
+                <div id="nav-btn" class="nav-btn">
                     <ul>
                         <li><a class="active" href="#">Home</a></li>
                         <li><a href="#">Our Shop</a></li>
@@ -29,6 +37,8 @@
             </div> 
         </nav>
     </header>
+
+
     <section  id="hero-section">
         <div class="container hero-area">
             <div class="left-section">
@@ -81,7 +91,7 @@
     
     <!-- Trending section code start hare -->
 
-    <section>
+    <section id="trending-section">
         <div class="container trending-section">
             <div class="title">
                 <div class="title-item">
@@ -156,67 +166,70 @@
     <!-- TOP GAMES section -->
 
     <section class="top-game-section">
-        <div class="container top-game">
-            <div class="top-game-title">
-                <div>
-                    <h4>TOP GAMES</h4>
-                    <h3>Most Played</h3>
-                </div>
-                <button>View All</button>
-            </div>
-            <div class="top-item-parent">
-
-                <div class="top-item-item">
-                    <img src="images/top-game-01.jpg" alt="">
-                    <div class="top-item-title">
-                        <h4>Adventure</h4>
-                        <h3>Assasin Creed</h3>
-                        <button>EXPLORE</button>
+        <div class="container">
+            <div class="top-game">
+                <div class="top-game-title">
+                    <div>
+                        <h4>TOP GAMES</h4>
+                        <h3>Most Played</h3>
                     </div>
+                    <button>View All</button>
                 </div>
-                <div class="top-item-item">
-                    <img src="images/top-game-02.jpg" alt="">
-                    <div class="top-item-title">
-                        <h4>Adventure</h4>
-                        <h3>Assasin Creed</h3>
-                        <button>EXPLORE</button>
+                <div class="top-item-parent">
+    
+                    <div class="top-item-item">
+                        <img src="images/top-game-01.jpg" alt="">
+                        <div class="top-item-title">
+                            <h4>Adventure</h4>
+                            <h3>Assasin Creed</h3>
+                            <button>EXPLORE</button>
+                        </div>
                     </div>
-                </div>
-                <div class="top-item-item">
-                    <img src="images/top-game-03.jpg" alt="">
-                    <div class="top-item-title">
-                        <h4>Adventure</h4>
-                        <h3>Assasin Creed</h3>
-                        <button>EXPLORE</button>
+                    <div class="top-item-item">
+                        <img src="images/top-game-02.jpg" alt="">
+                        <div class="top-item-title">
+                            <h4>Adventure</h4>
+                            <h3>Assasin Creed</h3>
+                            <button>EXPLORE</button>
+                        </div>
                     </div>
-                </div>
-                <div class="top-item-item">
-                    <img src="images/top-game-04.jpg" alt="">
-                    <div class="top-item-title">
-                        <h4>Adventure</h4>
-                        <h3>Assasin Creed</h3>
-                        <button>EXPLORE</button>
+                    <div class="top-item-item">
+                        <img src="images/top-game-03.jpg" alt="">
+                        <div class="top-item-title">
+                            <h4>Adventure</h4>
+                            <h3>Assasin Creed</h3>
+                            <button>EXPLORE</button>
+                        </div>
                     </div>
-                </div>
-                <div class="top-item-item">
-                    <img src="images/top-game-05.jpg" alt="">
-                    <div class="top-item-title">
-                        <h4>Adventure</h4>
-                        <h3>Assasin Creed</h3>
-                        <button>EXPLORE</button>
+                    <div class="top-item-item">
+                        <img src="images/top-game-04.jpg" alt="">
+                        <div class="top-item-title">
+                            <h4>Adventure</h4>
+                            <h3>Assasin Creed</h3>
+                            <button>EXPLORE</button>
+                        </div>
                     </div>
-                </div>
-                <div class="top-item-item">
-                    <img src="images/top-game-06.jpg" alt="">
-                    <div class="top-item-title">
-                        <h4>Adventure</h4>
-                        <h3>Assasin Creed</h3>
-                        <button>EXPLORE</button>
+                    <div class="top-item-item">
+                        <img src="images/top-game-05.jpg" alt="">
+                        <div class="top-item-title">
+                            <h4>Adventure</h4>
+                            <h3>Assasin Creed</h3>
+                            <button>EXPLORE</button>
+                        </div>
                     </div>
+                    <div class="top-item-item">
+                        <img src="images/top-game-06.jpg" alt="">
+                        <div class="top-item-title">
+                            <h4>Adventure</h4>
+                            <h3>Assasin Creed</h3>
+                            <button>EXPLORE</button>
+                        </div>
+                    </div>
+    
                 </div>
-
             </div>
         </div>
+        
     </section>
 
     <!-- Categories section code start here -->
@@ -264,7 +277,7 @@
 
     <!-- Shop section code start here -->
 
-    <section class="section">
+    <section id="shop" class="section">
         <div class="container shop">
             <div class="shop-item">
                 <img src="images/cta-bg.jpg" alt="">
